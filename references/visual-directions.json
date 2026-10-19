@@ -1,0 +1,14 @@
+{
+  "schema_version":"1",
+  "default":"brand-precision",
+  "palette_policy":"default neutral black with localized blurred colored glow; preserve source colors and explicit user choices; alternatives are optional",
+  "layout_policy":"author per project; no preset scenes or sample timeline reuse",
+  "load_policy":"Read the default direction and shared motion/color rules; read an alternative only when used.",
+  "directions":[
+    {"id":"brand-precision","name":"品牌简约·精密","role":"default","reference":"visual-directions/brand-precision.md"},
+    {"id":"paper-collage","name":"纸感拼贴","role":"optional recommendation","reference":"visual-directions/paper-collage.md"},
+    {"id":"whiteboard","name":"手绘白板","role":"optional recommendation","reference":"visual-directions/whiteboard.md"},
+    {"id":"cartoon","name":"卡通","role":"optional recommendation","reference":"visual-directions/cartoon.md"},
+    {"id":"isometric","name":"等距流程","role":"optional recommendation","reference":"visual-directions/isometric.md"}
+  ]
+}

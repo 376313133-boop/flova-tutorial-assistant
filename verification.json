@@ -1,0 +1,156 @@
+{
+  "version": "0.5.1",
+  "environment": "macOS ARM64",
+  "validation": {
+    "skill_frontmatter": "passed",
+    "default_direction": "brand-precision",
+    "fixed_palette": "default neutral black #050506; explicit user colors preserved; localized glow is separately authored animation",
+    "active_recommendations": "four alternatives plus the default; no scene presets",
+    "spatial_video_render": "passed: 6 seconds / 72 frames / H.264, with synchronous local video",
+    "transparent_spatial_video": "passed: 2 seconds / 24 frames / ProRes, alpha range 0..255",
+    "camera_projection": "checked at six camera states; centre projection error below 0.001 pixels",
+    "actual_target_alignment": "checked at six states; cursor error below 0.03 pixels",
+    "depth_parallax": "near/far scale ratio changes with camera position",
+    "video_quality_scan": "no black/freeze candidates in the synthetic spatial render",
+    "editor_integration": "new project default and spatial-clip render passed; no-title/no-overlay stream mapping fixed",
+    "baseline_editing_audio": "v0.1 synthetic cut, audio, titles, cache and portable-project checks carried forward"
+  },
+  "other_skill_runtime_dependencies": [],
+  "private_assets_included": false,
+  "real_creator_project_trial": "The supplied annotated frame and an original recording edge were inspected: the recording already contains clipped logo/navigation pixels. New source-integrity, full-path framing and black/glow rules are structurally reviewed; no new aesthetic video render is claimed for v0.5.0.",
+  "self_check_regression": {
+    "stream_duration_validation": "video overrun rejected; valid longer audio accepted",
+    "frame_grid": "off-grid duration rejected; exact-frame duration accepted",
+    "late_animation": "animation started after first frame rejected",
+    "atomic_export": "existing output preserved when encoder writes partial data then fails",
+    "spatial_video": "72 synchronized video frames rendered successfully",
+    "baseline_edit": "cut, camera focus, Chinese titles, alpha overlay and audio mixing rendered",
+    "camera_boundaries": "border projection, near-vertical continuity, explicit up and multi-turn angle interpolation checked in browser; zero measured centre error"
+  },
+  "runtime_validation_origin": "Spatial, encoding and baseline editing checks recorded above originate in v0.2.1 and are retained as historical evidence, not rerun here. v0.5.0 changes the init/default fallback color, palette guidance, validation error wording and version; spatial-stage.js and render_motion.mjs remain byte-identical to v0.4.0. New init and plan validation checks are recorded separately below. v0.5.1 adds comments/API-use clarification and changes the reported version only; its actual synthetic render and browser checks are separately recorded in v051_self_check.",
+  "instruction_update": {
+    "scope": "source-edge integrity, full-trajectory clipping review and a neutral-black background with localized blurred moving color; preserve recording-first hierarchy and pronounced 3D/card motion; clarify actual perspective anchors and the limited meaning of API visible flags",
+    "status": "passed: structural/manual rule review, real browser synthetic projection tests, and two actual synthetic encoding cases. User-footage aesthetic acceptance remains project-specific.",
+    "scenario_review": {
+      "clear_recording": "package the actual operation; do not replace it with a built interface",
+      "stable_state_reading": "use a clear screenshot when a prompt or setting needs reading; do not simulate typing merely for decoration",
+      "poor_or_unstable_crop": "first revise the edit or choose a clear source frame; quality alone does not trigger UI reconstruction",
+      "long_typing": "a concise built input demo may explain this core interaction; preserve verified input and return to real feedback",
+      "contextual_overlay": "use the same operation stage as a blurred or dimmed recording background; keep scene identity and preserve critical actions",
+      "unknown_labels_or_results": "verify or omit uncertain details; no fabricated product states or improved outcomes",
+      "whole_video": "real operation and real results remain the main line; no fixed footage ratio is imposed",
+      "static_slide_deck": "reject repeated page swaps or title/static-image/fade sequences as packaging motion",
+      "camera_only_motion": "reject for card motion if the material has no independent spatial or structural action",
+      "video_only_motion": "source video playback does not prove authored camera or material motion",
+      "screenshot_highlighting": "require accurate target binding, visible attention progression and a readable landing; a static frame alone is insufficient",
+      "meaningful_holds": "allow stable reading and full real-result observation; do not add pointless movement to meet a checklist",
+      "missing_visual_evidence": "mark unverified and review actual playback/intermediate frames before declaring the motion passed",
+      "already_clipped_source": "reject half logos/navigation even if the outer card is complete; select an intact source or omit an entire irrelevant damaged region at a clean boundary",
+      "missing_required_evidence": "do not synthesize missing product details; record the gap and only request replacement when the evidence is essential and irreplaceable",
+      "mid_motion_clipping": "inspect source-mapped target corners, nested masks and occlusion through acceleration, overshoot and maximum perspective, not only endpoints or centers",
+      "intentional_closeup": "allow a focused view with complete target/context and clean crop boundaries; preserve authentic scroll viewport behavior",
+      "caption_cleanup_mask": "do not cover menus, inputs or buttons while hiding original captions",
+      "glow_bounds": "allow soft decorative spill but reject visible hard rectangular blur edges; keep blur off world/camera and readable content",
+      "black_background_composite": "reject an overall dark-green/teal cast even when the CSS base is black; inspect the final composite",
+      "static_gradient": "a solid fill or static gradient does not meet the moving-glow requirement; author a separate slow deterministic track",
+      "explicit_user_color": "respect explicit alternate colors; init must not overwrite an existing plan",
+      "three_d_preserved": "repair source selection, framing, masks and camera trajectory without flattening all motion or replacing the real-operation main line",
+      "aabb_anchor": "For a tilted rectangular target, elementAnchor* AABB center/corners can drift; use true plane-coordinate projection or separate zero-size DOM marker points.",
+      "visible_flag": "Depth or layout eligibility does not imply containment or unobstructed visibility; separately review all corners, masks and occlusion over the full trajectory."
+    },
+    "scenario_review_method": "manual instruction walkthrough, not execution of a new rendered video",
+    "new_automatic_ui_recovery": false,
+    "structural_checks": {
+      "local_reference_links": 44,
+      "runtime_behavior_unchanged": true,
+      "runtime_change_scope": "v0.5.1 only reported version and API comments; no logic change",
+      "spatial_runtime_unchanged": true,
+      "new_reference": "references/framing-and-bounds.md",
+      "ui_metadata_description_length": 42,
+      "presentation_priority_preserved": true
+    },
+    "user_correction": "recording packaging > screenshots > focused UI demo; default pronounced 3D with independent card actions, reject semantic edge clipping, use neutral black with localized blurred moving color instead of a dark-green base",
+    "motion_reference": "references/screenshot-motion.md",
+    "motion_review_method": "manual rule/scenario review; no new aesthetic render or automatic semantic-clipping classifier is claimed",
+    "boundary_reference": "references/framing-and-bounds.md",
+    "background_reference": "references/style-quality.md",
+    "source_issue_diagnosis": "Native-resolution source edge confirms partial logo and navigation clipping before packaging. Project-only diagnostic images remain outside this distributable skill."
+  },
+  "v050_runtime_checks": {
+    "version": "0.5.0",
+    "new_init_background": "#050506",
+    "init_glow_animation": "explicitly authored separately, not auto-generated",
+    "neutral_black_plan_validation": "passed",
+    "explicit_alternate_color_validation": "passed",
+    "reinit_preserves_existing_plan": "passed",
+    "python_syntax": "passed",
+    "json_syntax": "passed",
+    "local_reference_links": 42,
+    "spatial_renderer_and_camera_runtime": "byte-identical to installed v0.4.0",
+    "new_visual_render_performed": false
+  },
+  "v051_self_check": {
+    "scope": "targeted instruction/API semantics audit and synthetic rendering; no re-render of the user tutorial",
+    "findings_fixed": [
+      "elementAnchor* returns an axis-aligned bounding rectangle interpolation, not true perspective center/corners; documentation now uses zero-size marker points or plane-coordinate projection",
+      "visible is not an in-bounds or unoccluded flag; documentation now requires independent trajectory/mask/occlusion review"
+    ],
+    "spatial_browser_evidence": {
+      "bboxCenterError": 10.597483869923137,
+      "bboxCornerError": 24.132751716939598,
+      "zeroMarkerError": 4.7176023429175524e-06,
+      "firstFits": true,
+      "lastFits": true,
+      "intermediateOverflow": 39,
+      "depthVisibleDuringOverflow": 39,
+      "sampleCount": 61
+    },
+    "synthetic_render_evidence": {
+      "actual_render_cases": [
+        {
+          "case": "neutral-black",
+          "expected_background": [
+            5,
+            5,
+            6
+          ],
+          "decoded_background": [
+            3,
+            3,
+            3
+          ],
+          "all_four_source_markers_preserved": true,
+          "frames": "12"
+        },
+        {
+          "case": "explicit-color",
+          "expected_background": [
+            247,
+            243,
+            232
+          ],
+          "decoded_background": [
+            246,
+            242,
+            232
+          ],
+          "all_four_source_markers_preserved": true,
+          "frames": "12"
+        }
+      ],
+      "reinit_preserves_explicit_color": true,
+      "cache_entries": 2,
+      "note": "Synthetic technical checks only; no claim of real-footage semantic completeness or aesthetic acceptance."
+    },
+    "structural_checks": {
+      "local_links": 44,
+      "heading_anchors": 6,
+      "frontmatter": "passed",
+      "metadata": "passed",
+      "python_js_json_syntax": "passed",
+      "installed_v050_matches_archive": "passed",
+      "runtime_logic_change": "none; comments, documentation and version only"
+    },
+    "limitations": "Synthetic geometry and pixel checks do not establish that real source content is semantically complete, nor that an authored glow/3D tutorial has passed aesthetic playback review."
+  }
+}

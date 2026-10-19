@@ -1,0 +1,39 @@
+{
+  "name": "flova-tutorial-assistant",
+  "version": "0.5.1",
+  "other_skill_dependencies": [],
+  "required_software": [
+    "Python >=3.9",
+    "FFmpeg",
+    "FFprobe"
+  ],
+  "optional_software": [
+    "Node.js",
+    "Playwright",
+    "Chromium"
+  ],
+  "default_visual_direction": "brand-precision",
+  "alternative_recommendations": [
+    "paper-collage",
+    "whiteboard",
+    "cartoon",
+    "isometric"
+  ],
+  "palette_policy": "default neutral black with localized blurred colored glow; preserve source colors and explicit user choices; no dark-green overall cast",
+  "default_background": "#050506",
+  "background_motion_policy": "author slow deterministic drift, expansion or breathing on a separate rear glow layer; a solid init fill does not generate this animation",
+  "boundary_review_policy": "inspect native source edges before packaging, then media fit, masks, projected corners, critical content and occlusion across the full motion; technical QA does not certify semantic completeness",
+  "presets_included": false,
+  "camera_policy": "default to pronounced 3D camera travel, visible depth/parallax and independent material actions; stabilize for reading and real result playback",
+  "screenshot_motion_policy": "author camera attention routing, target-bound dynamic highlights and independent card/window motion; static boxes or whole-frame micro-zoom do not suffice",
+  "motion_review_policy": "required pre-export anti-PPT review of camera, material action, screenshot highlight, continuity, depth and real-product readability, with actual playback/frame evidence",
+  "recording_policy": "real product use is the core; prioritize recording packaging, then screenshots, and only then focused UI demonstrations",
+  "presentation_priority": [
+    "recording-packaging",
+    "screenshots",
+    "focused-interaction-demo"
+  ],
+  "ui_reconstruction_policy": "only for a specific value point or a concise core interaction such as long typing; optionally overlay a context-matched blurred recording, then return to real operation or results",
+  "default_music": false,
+  "private_assets_included": false
+}

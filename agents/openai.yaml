@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flova教程剪辑包装小助手"
+  short_description: "录屏优先，黑底柔化彩光配强三维运镜与动态高亮，检查源素材缺边、运镜裁切和 PPT 感"
+  default_prompt: "使用 $flova-tutorial-assistant，优先包装实机录屏、其次截图、最后短段核心交互演示；默认中性黑底与局部虚化彩光动效、明显三维运镜、动态高亮和独立卡片动作，导出前完成源素材四边、运镜全过程边界及反 PPT 自检，只使用这个 Skill。"
