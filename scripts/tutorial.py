@@ -14,7 +14,7 @@ import subprocess
 import sys
 import wave
 
-VERSION = '0.5.1'
+VERSION = '0.6.0'
 CACHE_FORMAT = '1'
 VIDEO = {'.mp4','.mov','.mkv','.webm','.m4v','.avi'}
 AUDIO = {'.wav','.mp3','.m4a','.aac','.flac','.ogg'}

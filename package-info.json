@@ -1,6 +1,6 @@
 {
   "name": "flova-tutorial-assistant",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "other_skill_dependencies": [],
   "required_software": [
     "Python >=3.9",
@@ -10,7 +10,9 @@
   "optional_software": [
     "Node.js",
     "Playwright",
-    "Chromium"
+    "Chromium",
+    "Flova CLI (latest released; account-following API mode recommended)",
+    "Chrome >=116 (optional page recorder)"
   ],
   "default_visual_direction": "brand-precision",
   "alternative_recommendations": [
@@ -35,5 +37,35 @@
   ],
   "ui_reconstruction_policy": "only for a specific value point or a concise core interaction such as long typing; optionally overlay a context-matched blurred recording, then return to real operation or results",
   "default_music": false,
-  "private_assets_included": false
+  "private_assets_included": false,
+  "optional_features": {
+    "narration": {
+      "provider": "Flova CLI",
+      "preferred_model": "Seed Audio 1.0",
+      "preferred_mode": "MultiModalToAudio",
+      "project": "dedicated tutorial audio project",
+      "reference_analysis": "agent reviews actual audio and selects clean excerpts"
+    },
+    "music": {
+      "default_enabled": false,
+      "generation_supported": true,
+      "model_selection": "current available music directory"
+    },
+    "recording": {
+      "extension": "recorder/",
+      "capture_scope": "user-selected tab viewport only",
+      "multiple_sessions": true,
+      "pause": "independent standalone WebM takes; explicit agent control plus idle fallback",
+      "first_start": "user gesture per selected tab",
+      "network_upload": false
+    }
+  },
+  "flova_api_policy": "new setups follow account auto runtime; preserve explicit legacy project routing; never embed private endpoints or credentials",
+  "content_guidance": {
+    "reference": "references/flova-product-guide.md",
+    "knowledge_checked": "2026-10-21",
+    "brief_version": "Flova 1.5",
+    "scope": "product functionality, workflows, value-to-evidence tutorial planning",
+    "current_scope_policy": "dated brief is not proof of universal live availability; verify current UI and account"
+  }
 }

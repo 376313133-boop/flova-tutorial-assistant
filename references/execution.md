@@ -80,3 +80,9 @@ python3 scripts/tutorial.py bundle-project --plan /path/tutorial-project/plan.js
 视频与音频分别使用各自的流时长校验。文件总时长不能代表视频画面长度；素材范围不足时修订切点或补充证据，不用尾帧冻结填满。顺序片段按已批准的逐帧时长衔接，声音事件仍可使用毫秒时序。
 
 默认强三维包装使用独立空间相机、素材位姿与截图高亮轨道；普通二维 camera 字段只能承担局部聚焦，不能单独满足这一默认要求。正式导出前在现有审片记录中先完成源素材与整个运动轨迹的边界检查，再完成 quality.md 的反 PPT 动效自检。`validate` 和 `qa` 检查技术信息，不会自动判定语义缺边、运镜、卡片动作、截图讲解或背景彩光已达标。
+
+## 可选音频生成与页面录制
+
+缺少旁白或需要 BGM 时按 [Flova 音频](flova-audio.md) 先检查最新 CLI/账号模型，再创建独立音频项目。`scripts/flova_audio.py prepare` 只在本地分段与准备请求；`run` 交给正式 CLI 执行和等待，不能把 prepared 状态当作已生成。
+
+需要采集实机时按 [页面录屏](browser-recording.md) 安装可选扩展。暂停/恢复会产生独立 WebM 片段与录制清单；仍用 `inventory` 核对实际媒体流后加入剪辑计划。扩展不是浏览器自动化工具，页面操作继续使用 Agent 已有浏览器工具。

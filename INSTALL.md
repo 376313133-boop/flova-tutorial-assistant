@@ -9,3 +9,7 @@
 先运行 doctor 检查环境。摄影机和三维素材调度按当前内容设计，使用包内空间舞台与逐帧导出器。音效默认可用，音乐默认关闭。
 
 执行器经过合成素材测试；真实教程仍需核对剪辑判断、旁白/音效时序与最终视觉质量。
+
+可选 Flova 音频生成：安装官方最新发布 CLI，登录账号，新安装推荐 `flova profile api use auto` 跟随账号当前版本，再运行 `python3 scripts/flova_audio.py doctor`。旧协议项目不迁移。详见 [旁白与配乐](references/flova-audio.md)。
+
+可选精准录屏：Chrome 116+ 打开 `chrome://extensions`，加载本包 `recorder/` 目录；每个 Flova 目标标签页首次点击扩展启动。不同项目分别录制、暂停和导出独立片段，默认不录麦克风或页面音频。详见 [页面录屏](references/browser-recording.md)。

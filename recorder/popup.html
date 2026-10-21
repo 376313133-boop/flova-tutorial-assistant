@@ -1,0 +1,4 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><link rel="stylesheet" href="popup.css">
+<title>Flova 教程录屏</title><main><header><span class="eyebrow">FLOVA · TUTORIAL</span><h1>只留下有用的操作。</h1><p>仅录所选标签页内容。每个项目独立启停。</p></header>
+<section class="settings"><label><input id="audio" type="checkbox"> 保留页面声音</label><label>空闲暂停 <select id="idle"><option value="10000">10 秒</option><option value="20000">20 秒</option><option value="60000">60 秒</option></select></label><button id="start" class="primary">录制当前 Flova 标签页</button></section>
+<p id="notice" role="status"></p><section id="sessions"></section><footer>暂停会保存为独立片段；等待时间不进入素材。<br>生成等待前让 Agent 暂停，操作/结果出现时再恢复。</footer></main><script type="module" src="popup.js"></script></html>

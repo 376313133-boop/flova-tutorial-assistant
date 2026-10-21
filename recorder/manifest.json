@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Flova 教程页面录屏助手",
+  "version": "0.6.0",
+  "minimum_chrome_version": "116",
+  "description": "只录所选 Flova 标签页，独立管理多个项目，支持暂停、恢复、空闲暂停与分段导出。",
+  "permissions": ["activeTab", "tabCapture", "offscreen", "scripting", "downloads"],
+  "background": {"service_worker": "background.js", "type": "module"},
+  "action": {"default_popup": "popup.html", "default_title": "Flova 教程录屏"},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'self'"}
+}

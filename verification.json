@@ -1,5 +1,5 @@
 {
-  "version": "0.5.1",
+  "version": "0.6.0",
   "environment": "macOS ARM64",
   "validation": {
     "skill_frontmatter": "passed",
@@ -152,5 +152,69 @@
       "runtime_logic_change": "none; comments, documentation and version only"
     },
     "limitations": "Synthetic geometry and pixel checks do not establish that real source content is semantically complete, nor that an authored glow/3D tutorial has passed aesthetic playback review."
+  },
+  "v060_self_check": {
+    "date": "2026-10-21",
+    "scope": "Flova content guidance, optional audio workflow and original Chrome page recorder; no creator media or paid audio generation trial",
+    "flova_live_read_checks": {
+      "cli_latest": "v0.0.14",
+      "account_connection": "passed",
+      "default_api_mode": "auto",
+      "resolved_api": "v3",
+      "available_seed_model": "audio_seed_audio_1_0",
+      "seed_modes": [
+        "TextToSpeech",
+        "MultiModalToAudio"
+      ],
+      "available_music_models": [
+        "music_suno_5",
+        "music_mureka_8"
+      ],
+      "paid_generation_performed": false
+    },
+    "product_knowledge": {
+      "user_source_title": "Flova 1.5 达人合作 Brief｜新",
+      "source_last_modified": "2026-10-20",
+      "read_method": "authorized browser DOM and rendered document sections",
+      "scope": "functional/usage/value summaries; not raw case media or full source document",
+      "live_ui_availability_for_all_features_verified": false
+    },
+    "python_workflow_tests": {
+      "passed": 7,
+      "covers": [
+        "semantic script splitting without dropped content",
+        "reference-only spoken prompt",
+        "reference extraction and bounds",
+        "narration versus music separation",
+        "one attached CLI delegation with safe arguments",
+        "redacted capability inspection",
+        "recording manifest path and state validation"
+      ]
+    },
+    "chrome_integration": {
+      "browser": "Chrome 155 / macOS ARM64",
+      "real_tabCapture": true,
+      "isolated_synthetic_pages": true,
+      "concurrent_sessions_tested": 2,
+      "pause_isolation": true,
+      "user_pause_priority": true,
+      "idle_and_hold": true,
+      "standalone_webm_to_mp4": true,
+      "actual_download_export": true,
+      "interrupted_written_chunks_recovered": true,
+      "viewport_dimensions_verified": [
+        800,
+        600
+      ],
+      "source_identity_by_decoded_pixel": "passed for two different page backgrounds",
+      "production_popup_click_flow_tested": false,
+      "action_test_method": "CDP invokes action in an isolated test copy, calling the production capture path; no user Chrome profile or login accessed"
+    },
+    "limitations": [
+      "No paid narration/music generation was executed; actual voice quality, script accuracy and output consistency need a project audition.",
+      "Two synthetic tabs do not guarantee full frame rate on every machine or on real background Flova projects.",
+      "Recovered interrupted chunks may omit the unwritten tail; full recovery is not guaranteed.",
+      "Product brief knowledge is dated guidance; current account/UI availability and promotional limits require verification."
+    ]
   }
 }
